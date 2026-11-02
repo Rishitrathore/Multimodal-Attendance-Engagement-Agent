@@ -1,0 +1,928 @@
+{
+  "schema_version": "1.1",
+  "synchronization": {
+    "method": "session timestamp fixed-window aggregation",
+    "window_seconds": 1.0
+  },
+  "time_windows_analyzed": 214,
+  "combined_context_counts": {
+    "No visible face + silence": 75,
+    "Visual presence + silence": 108,
+    "Visual presence + background noise": 6,
+    "Visual presence + probable speech": 3,
+    "Probable speech without visible face": 14,
+    "Background noise only": 8
+  },
+  "average_context_score": 36.9,
+  "average_engagement_indicator": 20.6,
+  "engagement_level_counts": {
+    "Low": 157,
+    "Moderate": 55,
+    "High": 2
+  },
+  "peak_engagement_window": {
+    "start_seconds": 22.0,
+    "end_seconds": 23.0,
+    "score": 82.5
+  },
+  "lowest_engagement_windows": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 1.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 1.0,
+      "end_seconds": 2.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 2.0,
+      "end_seconds": 3.0,
+      "score": 32.5
+    },
+    {
+      "start_seconds": 4.0,
+      "end_seconds": 5.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 5.0,
+      "end_seconds": 6.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 12.0,
+      "end_seconds": 13.0,
+      "score": 28.6
+    },
+    {
+      "start_seconds": 13.0,
+      "end_seconds": 14.0,
+      "score": 29.7
+    },
+    {
+      "start_seconds": 14.0,
+      "end_seconds": 15.0,
+      "score": 26.0
+    },
+    {
+      "start_seconds": 15.0,
+      "end_seconds": 16.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 19.0,
+      "end_seconds": 20.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 20.0,
+      "end_seconds": 21.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 24.0,
+      "end_seconds": 25.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 25.0,
+      "end_seconds": 26.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 30.0,
+      "end_seconds": 31.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 32.0,
+      "end_seconds": 33.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 34.0,
+      "end_seconds": 35.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 36.0,
+      "end_seconds": 37.0,
+      "score": 32.5
+    },
+    {
+      "start_seconds": 37.0,
+      "end_seconds": 38.0,
+      "score": 28.8
+    },
+    {
+      "start_seconds": 38.0,
+      "end_seconds": 39.0,
+      "score": 31.0
+    },
+    {
+      "start_seconds": 39.0,
+      "end_seconds": 40.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 43.0,
+      "end_seconds": 44.0,
+      "score": 27.7
+    },
+    {
+      "start_seconds": 49.0,
+      "end_seconds": 50.0,
+      "score": 26.5
+    },
+    {
+      "start_seconds": 50.0,
+      "end_seconds": 51.0,
+      "score": 27.9
+    },
+    {
+      "start_seconds": 52.0,
+      "end_seconds": 53.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 53.0,
+      "end_seconds": 54.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 54.0,
+      "end_seconds": 55.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 55.0,
+      "end_seconds": 56.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 56.0,
+      "end_seconds": 57.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 57.0,
+      "end_seconds": 58.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 58.0,
+      "end_seconds": 59.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 60.0,
+      "end_seconds": 61.0,
+      "score": 30.7
+    },
+    {
+      "start_seconds": 61.0,
+      "end_seconds": 62.0,
+      "score": 31.7
+    },
+    {
+      "start_seconds": 62.0,
+      "end_seconds": 63.0,
+      "score": 32.5
+    },
+    {
+      "start_seconds": 64.0,
+      "end_seconds": 65.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 65.0,
+      "end_seconds": 66.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 66.0,
+      "end_seconds": 67.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 67.0,
+      "end_seconds": 68.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 68.0,
+      "end_seconds": 69.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 70.0,
+      "end_seconds": 71.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 71.0,
+      "end_seconds": 72.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 73.0,
+      "end_seconds": 74.0,
+      "score": 32.5
+    },
+    {
+      "start_seconds": 76.0,
+      "end_seconds": 77.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 77.0,
+      "end_seconds": 78.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 79.0,
+      "end_seconds": 80.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 80.0,
+      "end_seconds": 81.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 81.0,
+      "end_seconds": 82.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 82.0,
+      "end_seconds": 83.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 84.0,
+      "end_seconds": 85.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 85.0,
+      "end_seconds": 86.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 86.0,
+      "end_seconds": 87.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 88.0,
+      "end_seconds": 89.0,
+      "score": 29.8
+    },
+    {
+      "start_seconds": 90.0,
+      "end_seconds": 91.0,
+      "score": 29.1
+    },
+    {
+      "start_seconds": 91.0,
+      "end_seconds": 92.0,
+      "score": 20.0
+    },
+    {
+      "start_seconds": 94.0,
+      "end_seconds": 95.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 100.0,
+      "end_seconds": 101.0,
+      "score": 15.0
+    },
+    {
+      "start_seconds": 101.0,
+      "end_seconds": 102.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 102.0,
+      "end_seconds": 103.0,
+      "score": 30.0
+    },
+    {
+      "start_seconds": 103.0,
+      "end_seconds": 104.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 104.0,
+      "end_seconds": 105.0,
+      "score": 26.6
+    },
+    {
+      "start_seconds": 105.0,
+      "end_seconds": 106.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 106.0,
+      "end_seconds": 107.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 107.0,
+      "end_seconds": 108.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 108.0,
+      "end_seconds": 109.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 109.0,
+      "end_seconds": 110.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 110.0,
+      "end_seconds": 111.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 111.0,
+      "end_seconds": 112.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 112.0,
+      "end_seconds": 113.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 113.0,
+      "end_seconds": 114.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 114.0,
+      "end_seconds": 115.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 117.0,
+      "end_seconds": 118.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 119.0,
+      "end_seconds": 120.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 120.0,
+      "end_seconds": 121.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 121.0,
+      "end_seconds": 122.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 122.0,
+      "end_seconds": 123.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 123.0,
+      "end_seconds": 124.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 124.0,
+      "end_seconds": 125.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 125.0,
+      "end_seconds": 126.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 126.0,
+      "end_seconds": 127.0,
+      "score": 26.5
+    },
+    {
+      "start_seconds": 127.0,
+      "end_seconds": 128.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 128.0,
+      "end_seconds": 129.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 129.0,
+      "end_seconds": 130.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 131.0,
+      "end_seconds": 132.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 132.0,
+      "end_seconds": 133.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 133.0,
+      "end_seconds": 134.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 134.0,
+      "end_seconds": 135.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 135.0,
+      "end_seconds": 136.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 136.0,
+      "end_seconds": 137.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 137.0,
+      "end_seconds": 138.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 138.0,
+      "end_seconds": 139.0,
+      "score": 28.2
+    },
+    {
+      "start_seconds": 139.0,
+      "end_seconds": 140.0,
+      "score": 25.5
+    },
+    {
+      "start_seconds": 140.0,
+      "end_seconds": 141.0,
+      "score": 26.6
+    },
+    {
+      "start_seconds": 141.0,
+      "end_seconds": 142.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 142.0,
+      "end_seconds": 143.0,
+      "score": 26.6
+    },
+    {
+      "start_seconds": 144.0,
+      "end_seconds": 145.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 145.0,
+      "end_seconds": 146.0,
+      "score": 15.0
+    },
+    {
+      "start_seconds": 148.0,
+      "end_seconds": 149.0,
+      "score": 27.7
+    },
+    {
+      "start_seconds": 149.0,
+      "end_seconds": 150.0,
+      "score": 28.9
+    },
+    {
+      "start_seconds": 150.0,
+      "end_seconds": 151.0,
+      "score": 26.5
+    },
+    {
+      "start_seconds": 151.0,
+      "end_seconds": 152.0,
+      "score": 30.5
+    },
+    {
+      "start_seconds": 152.0,
+      "end_seconds": 153.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 153.0,
+      "end_seconds": 154.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 155.0,
+      "end_seconds": 156.0,
+      "score": 28.8
+    },
+    {
+      "start_seconds": 156.0,
+      "end_seconds": 157.0,
+      "score": 27.7
+    },
+    {
+      "start_seconds": 157.0,
+      "end_seconds": 158.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 158.0,
+      "end_seconds": 159.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 159.0,
+      "end_seconds": 160.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 160.0,
+      "end_seconds": 161.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 161.0,
+      "end_seconds": 162.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 162.0,
+      "end_seconds": 163.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 163.0,
+      "end_seconds": 164.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 164.0,
+      "end_seconds": 165.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 165.0,
+      "end_seconds": 166.0,
+      "score": 27.9
+    },
+    {
+      "start_seconds": 166.0,
+      "end_seconds": 167.0,
+      "score": 28.8
+    },
+    {
+      "start_seconds": 168.0,
+      "end_seconds": 169.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 169.0,
+      "end_seconds": 170.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 170.0,
+      "end_seconds": 171.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 171.0,
+      "end_seconds": 172.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 173.0,
+      "end_seconds": 174.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 174.0,
+      "end_seconds": 175.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 175.0,
+      "end_seconds": 176.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 176.0,
+      "end_seconds": 177.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 177.0,
+      "end_seconds": 178.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 178.0,
+      "end_seconds": 179.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 179.0,
+      "end_seconds": 180.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 180.0,
+      "end_seconds": 181.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 181.0,
+      "end_seconds": 182.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 182.0,
+      "end_seconds": 183.0,
+      "score": 28.8
+    },
+    {
+      "start_seconds": 183.0,
+      "end_seconds": 184.0,
+      "score": 28.0
+    },
+    {
+      "start_seconds": 184.0,
+      "end_seconds": 185.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 185.0,
+      "end_seconds": 186.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 186.0,
+      "end_seconds": 187.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 187.0,
+      "end_seconds": 188.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 188.0,
+      "end_seconds": 189.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 189.0,
+      "end_seconds": 190.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 190.0,
+      "end_seconds": 191.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 191.0,
+      "end_seconds": 192.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 192.0,
+      "end_seconds": 193.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 193.0,
+      "end_seconds": 194.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 194.0,
+      "end_seconds": 195.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 195.0,
+      "end_seconds": 196.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 196.0,
+      "end_seconds": 197.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 198.0,
+      "end_seconds": 199.0,
+      "score": 32.5
+    },
+    {
+      "start_seconds": 199.0,
+      "end_seconds": 200.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 200.0,
+      "end_seconds": 201.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 201.0,
+      "end_seconds": 202.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 202.0,
+      "end_seconds": 203.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 203.0,
+      "end_seconds": 204.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 204.0,
+      "end_seconds": 205.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 205.0,
+      "end_seconds": 206.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 206.0,
+      "end_seconds": 207.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 207.0,
+      "end_seconds": 208.0,
+      "score": 0
+    },
+    {
+      "start_seconds": 208.0,
+      "end_seconds": 209.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 209.0,
+      "end_seconds": 210.0,
+      "score": 29.3
+    },
+    {
+      "start_seconds": 210.0,
+      "end_seconds": 211.0,
+      "score": 30.8
+    },
+    {
+      "start_seconds": 211.0,
+      "end_seconds": 212.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 212.0,
+      "end_seconds": 213.0,
+      "score": 25.0
+    },
+    {
+      "start_seconds": 213.0,
+      "end_seconds": 214.0,
+      "score": 0
+    }
+  ],
+  "teaching_suggestions": [
+    "Consider a short interactive question or discussion during low-activity periods.",
+    "Check camera framing if visual presence is frequently missing.",
+    "Review noisy intervals and microphone placement."
+  ],
+  "most_common_context": "Visual presence + silence",
+  "audio_class_duration_seconds": {
+    "Silence": 182.226,
+    "Background noise": 14.0,
+    "Probable speech": 17.0
+  },
+  "average_visual_movement_px": 2.638,
+  "participant_estimated_visible_window_seconds": {
+    "1": 0.03,
+    "2": 0.17,
+    "3": 0.42,
+    "4": 0.03,
+    "5": 0.67,
+    "6": 0.03,
+    "7": 0.03,
+    "8": 0.03,
+    "9": 0.03,
+    "10": 0.07,
+    "11": 6.47,
+    "12": 0.84,
+    "13": 1.5,
+    "14": 1.94,
+    "15": 0.03,
+    "16": 0.33,
+    "17": 2.86,
+    "18": 0.31,
+    "19": 0.19,
+    "20": 0.13,
+    "21": 0.91,
+    "22": 2.51,
+    "23": 2.88,
+    "24": 0.99,
+    "25": 0.3,
+    "26": 0.07,
+    "27": 0.05,
+    "28": 0.03,
+    "29": 0.49,
+    "30": 0.33,
+    "31": 0.03,
+    "32": 0.54,
+    "33": 1.14,
+    "34": 0.03,
+    "35": 0.13,
+    "36": 0.26,
+    "37": 0.03,
+    "38": 0.03,
+    "39": 0.17,
+    "40": 0.29,
+    "41": 3.13,
+    "42": 0.42,
+    "43": 0.07,
+    "44": 0.05,
+    "45": 0.03,
+    "46": 0.24,
+    "47": 0.91,
+    "48": 0.26,
+    "49": 2.3,
+    "50": 0.03,
+    "51": 0.18,
+    "52": 0.1,
+    "53": 0.05,
+    "54": 0.12,
+    "55": 0.25,
+    "56": 0.04,
+    "57": 0.5,
+    "58": 0.04,
+    "59": 0.53,
+    "60": 0.53,
+    "61": 5.12,
+    "62": 0.05,
+    "63": 0.04,
+    "64": 1.73,
+    "65": 3.18,
+    "66": 0.09,
+    "67": 0.2,
+    "68": 0.07,
+    "69": 0.65,
+    "70": 0.03,
+    "71": 1.38,
+    "72": 0.11,
+    "73": 2.43,
+    "74": 0.04,
+    "75": 0.03,
+    "76": 0.07,
+    "77": 1.47,
+    "78": 0.02,
+    "79": 0.51,
+    "80": 0.62,
+    "81": 0.03,
+    "82": 0.17,
+    "83": 0.27,
+    "84": 0.05,
+    "85": 0.92,
+    "86": 0.64,
+    "87": 0.04,
+    "88": 0.05
+  },
+  "reasoning_method": "Timestamp-aligned rule-based score per window: presence 35 points, movement 15, probable speech 40, with background-noise and visual-inactivity adjustments.",
+  "score_levels": {
+    "low": "0-34",
+    "moderate": "35-69",
+    "high": "70-100"
+  },
+  "extensibility": {
+    "optional_visual_features": [],
+    "optional_audio_features": []
+  },
+  "interpretation_limit": "Engagement scores are explainable classroom activity indicators only; they do not prove attention, understanding, identity, or learning. Movement is a simple face-box displacement estimate and probable speech is a heuristic audio class."
+}

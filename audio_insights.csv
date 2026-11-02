@@ -1,0 +1,9 @@
+metric,value
+segments_analyzed,214
+total_audio_duration_seconds,213.226
+silence_duration_seconds,182.226
+background_noise_duration_seconds,14.0
+probable_speech_duration_seconds,17.0
+mean_rms_amplitude,0.005482
+probable_speech_segment_ratio,0.0794
+classification_note,Heuristic audio classification; not speech recognition or a verified transcript.

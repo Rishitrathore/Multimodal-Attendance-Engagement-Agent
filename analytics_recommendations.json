@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "windows_analyzed": 214,
+  "average_activity_indicator": 20.6,
+  "low_activity_window_count": 157,
+  "high_activity_window_count": 2,
+  "probable_speech_window_count": 17,
+  "background_noise_window_count": 14,
+  "windows_without_face_detection": 97,
+  "most_common_audio_class": "Silence",
+  "session_record": {
+    "date": "2026-11-03",
+    "start_time": "00:15:57",
+    "end_time": "00:19:30",
+    "duration_seconds": "213.3",
+    "face_presence_percent": "22.8",
+    "audio_activity_percent": "8.0",
+    "average_activity_score": "16.7",
+    "suggestion": "Check camera placement and encourage visible participation."
+  },
+  "recommendations": [
+    {
+      "priority": "High",
+      "audience": "Instructor",
+      "category": "Repeated low activity",
+      "evidence": "157 of 214 windows had an activity indicator below 35.",
+      "recommendation": "Try a short recap, interactive question, poll, or pair discussion, then review the next session.",
+      "why_it_may_help": "A change in teaching format can help vary the pace; the score alone cannot explain why activity was low."
+    },
+    {
+      "priority": "Medium",
+      "audience": "Instructor",
+      "category": "Limited visual observations",
+      "evidence": "No face was detected in 97 windows.",
+      "recommendation": "Check camera framing, lighting, and whether the camera view is appropriate for the room.",
+      "why_it_may_help": "Missing detections can result from camera conditions and should not be treated as absence."
+    },
+    {
+      "priority": "Low",
+      "audience": "Instructor",
+      "category": "Low detected speech activity",
+      "evidence": "Probable speech was detected in 17 of 214 windows.",
+      "recommendation": "If discussion is part of the lesson, consider inviting questions or adding a brief discussion.",
+      "why_it_may_help": "The audio classifier is heuristic; quiet speech may not be detected and silence does not mean disengagement."
+    },
+    {
+      "priority": "Info",
+      "audience": "Student",
+      "category": "Session reflection",
+      "evidence": "The session activity indicator averaged 20.6/100 across 214 time windows.",
+      "recommendation": "Reflect on which parts of the lesson felt clear or difficult, and note one question to revisit.",
+      "why_it_may_help": "The indicator summarizes room-level signals and is not an individual student score."
+    },
+    {
+      "priority": "Info",
+      "audience": "Instructor",
+      "category": "Review before acting",
+      "evidence": "Visual and audio signals are approximate and may be affected by camera, microphone, room, and accessibility conditions.",
+      "recommendation": "Use these insights as prompts for human review; do not use them for grading, discipline, or individual ranking.",
+      "why_it_may_help": "Observable presence, movement, and sound cannot establish attention, understanding, or learning."
+    }
+  ],
+  "instructor_teaching_suggestions": [
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 3 consecutive windows (0.0s\u20133.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 4 consecutive windows (12.0s\u201316.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 4 consecutive windows (36.0s\u201340.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 7 consecutive windows (52.0s\u201359.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 3 consecutive windows (60.0s\u201363.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 5 consecutive windows (64.0s\u201369.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 4 consecutive windows (79.0s\u201383.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 3 consecutive windows (84.0s\u201387.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 15 consecutive windows (100.0s\u2013115.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 11 consecutive windows (119.0s\u2013130.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 12 consecutive windows (131.0s\u2013143.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 6 consecutive windows (148.0s\u2013154.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 12 consecutive windows (155.0s\u2013167.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 4 consecutive windows (168.0s\u2013172.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 24 consecutive windows (173.0s\u2013197.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "High",
+      "pattern": "Sustained low activity",
+      "evidence": "Activity indicator stayed below 35 for 16 consecutive windows (198.0s\u2013214.0s).",
+      "suggestion": "Consider pausing for a short recap, asking a low-pressure question, or using a brief pair/poll activity; then compare the next few windows.",
+      "rationale": "A change of pace may help re-engage the room. The signal cannot explain the cause of the low score."
+    },
+    {
+      "priority": "Medium",
+      "pattern": "Sudden activity drop",
+      "evidence": "Indicator decreased from 75 to 0 between 94.0s and 94.0s.",
+      "suggestion": "Review what changed around this point (topic transition, explanation length, or activity format); consider a quick comprehension check before continuing.",
+      "rationale": "A sharp change can identify a useful segment to review, but does not prove that learners lost attention."
+    },
+    {
+      "priority": "Positive",
+      "pattern": "Peak activity period",
+      "evidence": "Highest indicator was 82/100 during 22.0s\u201323.0s.",
+      "suggestion": "Review the teaching format or activity used during this segment and consider reusing it where it fits the lesson.",
+      "rationale": "Identifying active segments can help instructors reflect on approaches associated with stronger observable room activity."
+    }
+  ],
+  "ethical_note": "These are room/session-level activity insights, not individual attention, identity, ability, or learning assessments. Do not use them for grading or disciplinary decisions. Human review and appropriate consent are required."
+}
